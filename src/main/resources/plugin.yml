@@ -1,6 +1,6 @@
-name: X-Prison
+name: SupremePrison
 version: ${project.version}
-main: dev.drawethree.xprison.XPrison
+main: net.primegames.supremeprison.SupremePrison
 depend: [ Vault, WorldGuard, FastAsyncWorldEdit, helper, UltraEconomy ]
 softdepend:
   - PlaceholderAPI
