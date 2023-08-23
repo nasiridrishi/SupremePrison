@@ -6,7 +6,6 @@ import dev.drawethree.xprison.placeholders.xPrisonPapiRanksPlaceHolder;
 import dev.drawethree.xprison.ranks.api.XPrisonRanksAPI;
 import dev.drawethree.xprison.ranks.api.XPrisonRanksAPIImpl;
 import dev.drawethree.xprison.ranks.commands.AutoMineTeleport;
-import dev.drawethree.xprison.ranks.commands.MaxRankupCommand;
 import dev.drawethree.xprison.ranks.commands.RankupCommand;
 import dev.drawethree.xprison.ranks.commands.SetRankCommand;
 import dev.drawethree.xprison.ranks.config.RanksConfig;

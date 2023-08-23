@@ -6,7 +6,7 @@ import dev.drawethree.xprison.utils.text.TextUtils;
 import me.lucko.helper.Commands;
 import org.bukkit.Bukkit;
 
-public class ResetMineCommand{
+public class ResetMineCommand {
 
     private static final String[] COMMAND_ALIASES = {"resetmine", "minereset"};
 
@@ -40,7 +40,7 @@ public class ResetMineCommand{
                             }
                             this.plugin.getManager().resetMine(mine);
                             c.sender().sendMessage(plugin.getMessage("mine_reset_started").replace("%mine%", mine.getName()));
-                            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "lp user " + c.sender().getName() +"permission settemp xprison.command.resetmine.cooldown true 5min");
+                            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "lp user " + c.sender().getName() + "permission settemp xprison.command.resetmine.cooldown true 5min");
                         }
                     }
                 }).registerAndBind(this.plugin.getCore(), COMMAND_ALIASES);

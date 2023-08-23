@@ -51,9 +51,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Getter
+@Getter
 public final class XPrison extends ExtendedJavaPlugin {
 
-    @Getter
     private static XPrison instance;
 
     @Getter

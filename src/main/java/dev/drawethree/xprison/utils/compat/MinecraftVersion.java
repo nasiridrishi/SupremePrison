@@ -7,6 +7,7 @@ import org.bukkit.Bukkit;
  * Represents the current Minecraft version the plugin loaded on
  */
 @Getter
+@Getter
 public final class MinecraftVersion {
 
     /**
@@ -17,7 +18,6 @@ public final class MinecraftVersion {
     /**
      * The wrapper representation of the version
      */
-    @Getter
     private static V current;
 
     // Initialize the version

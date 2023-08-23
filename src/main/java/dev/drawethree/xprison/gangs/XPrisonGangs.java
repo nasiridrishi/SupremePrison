@@ -18,12 +18,12 @@ import dev.drawethree.xprison.gangs.service.impl.GangsServiceImpl;
 import lombok.Getter;
 
 @Getter
+@Getter
 public final class XPrisonGangs implements XPrisonModule {
 
     public static final String MODULE_NAME = "Gangs";
 
     private static XPrisonGangs instance;
-    @Getter
     private final XPrison core;
     @Getter
     private XPrisonGangsAPI api;

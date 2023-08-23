@@ -22,9 +22,9 @@ import java.util.logging.Level;
 
 
 @Getter
+@Getter
 public class PrisonEconomyManager implements XPrisonModule {
 
-    @Getter
     public static PrisonEconomyManager instance;
 
     public PrisonEconomyManager() {

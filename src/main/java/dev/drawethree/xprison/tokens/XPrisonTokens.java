@@ -16,12 +16,12 @@ import dev.drawethree.xprison.tokens.task.SavePlayerDataTask;
 import lombok.Getter;
 
 @Getter
+@Getter
 public final class XPrisonTokens implements XPrisonModule {
 
     public static final String MODULE_NAME = "Tokens";
 
     private static XPrisonTokens instance;
-    @Getter
     private final XPrison core;
     @Getter
     private BlockRewardsConfig blockRewardsConfig;

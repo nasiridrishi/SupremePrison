@@ -21,12 +21,12 @@ import me.lucko.helper.utils.Players;
 import org.bukkit.entity.Player;
 
 @Getter
+@Getter
 public final class XPrisonEnchants implements XPrisonModule {
 
 
     public static final String MODULE_NAME = "Enchants";
 
-    @Getter
     private static XPrisonEnchants instance;
     @Getter
     private final XPrison core;

@@ -14,9 +14,9 @@ public class PlayerBalanceRemoveEvent extends XPrisonEvent {
     private static final HandlerList HANDLERS_LIST = new HandlerList();
 
     private final PrisonCurrency currency;
+    private final OfflinePlayer who;
     @Setter
     private double amount;
-    private final OfflinePlayer who;
 
     public PlayerBalanceRemoveEvent(OfflinePlayer who, PrisonCurrency currency, double amount) {
         this.currency = currency;

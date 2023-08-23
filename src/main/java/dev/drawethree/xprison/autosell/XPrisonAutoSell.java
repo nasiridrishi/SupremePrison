@@ -15,11 +15,11 @@ import dev.drawethree.xprison.multipliers.XPrisonMultipliers;
 import lombok.Getter;
 
 @Getter
+@Getter
 public final class XPrisonAutoSell implements XPrisonModule {
 
     public static final String MODULE_NAME = "Auto Sell";
 
-    @Getter
     private static XPrisonAutoSell instance;
     @Getter
     private final XPrison core;

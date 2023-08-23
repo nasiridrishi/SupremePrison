@@ -43,12 +43,12 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
 @Getter
+@Getter
 public final class XPrisonMultipliers implements XPrisonModule {
 
     public static final String MODULE_NAME = "Multipliers";
 
     private static XPrisonMultipliers instance;
-    @Getter
     private final XPrison core;
     @Getter
     private FileManager.Config config;

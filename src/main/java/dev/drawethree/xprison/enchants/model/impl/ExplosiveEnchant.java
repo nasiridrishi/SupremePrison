@@ -3,7 +3,6 @@ package dev.drawethree.xprison.enchants.model.impl;
 import dev.drawethree.xprison.enchants.XPrisonEnchants;
 import dev.drawethree.xprison.enchants.api.events.ExplosionTriggerEvent;
 import dev.drawethree.xprison.enchants.model.XPrisonEnchantment;
-import dev.drawethree.xprison.enchants.utils.EnchantUtils;
 import dev.drawethree.xprison.mines.model.mine.Mine;
 import dev.drawethree.xprison.multipliers.enums.MultiplierType;
 import dev.drawethree.xprison.utils.Constants;

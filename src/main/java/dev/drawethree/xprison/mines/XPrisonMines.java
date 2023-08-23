@@ -20,12 +20,12 @@ import java.util.Map;
 import java.util.Objects;
 
 @Getter
+@Getter
 public class XPrisonMines implements XPrisonModule {
 
     public static final String MODULE_NAME = "Mines";
     public static final String MINES_ADMIN_PERM = "xprison.mines.admin";
 
-    @Getter
     private static XPrisonMines instance;
     @Getter
     private final XPrison core;

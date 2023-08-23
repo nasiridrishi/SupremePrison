@@ -16,13 +16,13 @@ import dev.drawethree.xprison.autominer.service.impl.AutominerServiceImpl;
 import lombok.Getter;
 
 @Getter
+@Getter
 public final class XPrisonAutoMiner implements XPrisonModule {
 
     public static final String MODULE_NAME = "Auto Miner";
 
     private static XPrisonAutoMiner instance;
 
-    @Getter
     private final XPrison core;
 
     @Getter
