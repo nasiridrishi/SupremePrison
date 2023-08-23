@@ -1,13 +1,12 @@
 name: SupremePrison
 version: ${project.version}
 main: net.primegames.supremeprison.SupremePrison
-depend: [ Vault, WorldGuard, FastAsyncWorldEdit, helper, UltraEconomy ]
+depend: [ Vault, WorldGuard, FastAsyncWorldEdit, helper, UltraEconomy, E ]
 softdepend:
   - PlaceholderAPI
   - MVdWPlaceholderAPI
   - Multiverse-Core
   - UltraBackpacks
-  - CoinsEngine
 authors: [ Drawethree ]
 api-version: 1.13
 load: POSTWORLD

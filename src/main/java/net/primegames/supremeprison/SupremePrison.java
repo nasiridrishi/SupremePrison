@@ -162,13 +162,7 @@ public final class SupremePrison extends ExtendedJavaPlugin {
         if (this.getConfig().getBoolean("modules.ranks")) {
             this.loadModule(ranks);
         }
-
         if (this.getConfig().getBoolean("modules.autosell")) {
-//            if (isUltraBackpacksEnabled()) {
-//                this.getLogger().info("Module AutoSell will not be loaded because selling system is handled by UltraBackpacks.");
-//            } else {
-//                this.loadModule(autoSell);
-//            }
             this.loadModule(autoSell);
         }
 
@@ -361,10 +355,6 @@ public final class SupremePrison extends ExtendedJavaPlugin {
         this.debugMode = enabled;
         this.getConfig().set("debug-mode", debugMode);
         this.saveConfig();
-    }
-
-    public boolean isUltraBackpacksEnabled() {
-        return this.getServer().getPluginManager().isPluginEnabled("UltraBackpacks");
     }
 
     public boolean isPlaceholderAPIEnabled() {

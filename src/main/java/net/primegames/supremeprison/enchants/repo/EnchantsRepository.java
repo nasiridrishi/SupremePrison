@@ -62,11 +62,6 @@ public class EnchantsRepository {
         register(new PrestigeFinderEnchant(this.plugin));
         register(new BlockBoosterEnchant(this.plugin));
         register(new KeyallsEnchant(this.plugin));
-//        if (SupremePrison.getInstance().isUltraBackpacksEnabled()) {
-//            register(new BackpackAutoSellEnchant(this.plugin));
-//        } else {
-//            register(new AutoSellEnchant(this.plugin));
-//        }
         register(new AutoSellEnchant(this.plugin));
 
         register(new VoucherFinderEnchant(this.plugin));

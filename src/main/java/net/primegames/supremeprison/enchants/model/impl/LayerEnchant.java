@@ -76,12 +76,6 @@ public final class LayerEnchant extends SupremePrisonEnchantment {
         }
 
         blocksAffected = event.getBlocksAffected();
-//
-//        if (!this.plugin.getCore().isUltraBackpacksEnabled()) {
-//            handleAffectedBlocks(p, blocksAffected);
-//        } else {
-//            UltraBackpacksAPI.handleBlocksBroken(p, blocksAffected);
-//        }
         handleAffectedBlocks(p, blocksAffected);
 
         if (this.plugin.isMinesModuleEnabled()) {

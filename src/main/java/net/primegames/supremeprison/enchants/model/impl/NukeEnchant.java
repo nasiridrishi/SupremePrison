@@ -81,12 +81,6 @@ public final class NukeEnchant extends SupremePrisonEnchantment {
         }
 
         blocksAffected = event.getBlocksAffected();
-
-//        if (!this.plugin.getCore().isUltraBackpacksEnabled()) {
-//            handleAffectedBlocks(p, region, blocksAffected);
-//        } else {
-//            UltraBackpacksAPI.handleBlocksBroken(p, blocksAffected);
-//        }
         handleAffectedBlocks(p, region, blocksAffected);
 
         if (this.plugin.isMinesModuleEnabled() && removeBlocks) {

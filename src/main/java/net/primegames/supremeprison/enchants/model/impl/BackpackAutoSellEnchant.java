@@ -33,22 +33,6 @@ public final class BackpackAutoSellEnchant extends SupremePrisonEnchantment {
     @Override
     public void onBlockBreak(BlockBreakEvent e, int enchantLevel) {
 
-//        if (!SupremePrison.getInstance().isUltraBackpacksEnabled()) {
-//            return;
-//        }
-//
-//        double chance = getChanceToTrigger(enchantLevel);
-//
-//        if (chance < ThreadLocalRandom.current().nextDouble(100)) {
-//            return;
-//        }
-
-//        try {
-//            UltraBackpacksAPI.sellBackpack(e.getPlayer(), true);
-//        } catch (BackpackNotFoundException ignored) {
-//            this.plugin.getCore().debug("BackpackAutoSellEnchant::onBlockBreak > Player " + e.getPlayer().getName() + " does not have backpack.", this.plugin);
-//        }
-
     }
 
     @Override
