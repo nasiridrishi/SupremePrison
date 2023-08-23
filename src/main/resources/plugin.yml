@@ -1,0 +1,14 @@
+name: X-Prison
+version: ${project.version}
+main: dev.drawethree.xprison.XPrison
+depend: [ Vault, WorldGuard, FastAsyncWorldEdit, helper, UltraEconomy ]
+softdepend:
+  - PlaceholderAPI
+  - MVdWPlaceholderAPI
+  - Multiverse-Core
+  - UltraBackpacks
+  - CoinsEngine
+authors: [ Drawethree ]
+api-version: 1.13
+load: POSTWORLD
+website: www.drawethree.dev

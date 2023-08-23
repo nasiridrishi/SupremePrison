@@ -1,0 +1,172 @@
+messages:
+  no_permission: '&c&lError &8&l| &7You do not have a permission to do that!'
+  rank_up: '&e&lRankup &8&l| &7Congratulations, you ranked up from %Rank-1% &7to %Rank-2%&7.'
+  not_enough_money: '&c&lError &8&l| &7You don''t have enough money to rankup. You
+    need $%cost%'
+  not_enough_tokens: '&c&lError &8&l| &7You don''t have enough tokens to rankup. You
+    need %cost% Tokens.'
+  prestige_needed: '&e&lRankup &8&l| &7In order to continue to the next stage do &f/prestige&7.'
+  rank_set: '&e&lRankup &8&l| &7You have set %player%''s rank to %rank%'
+use_tokens_currency: false
+progress-bar-delimiter: ':'
+progress-bar-length: 20
+#Command that will run for every rankups
+#PlaceHolders: %player%
+RankUpCommands: [ ]
+Ranks:
+  '1':
+    Mine: a
+    CMD: [ ]
+    Name: A
+    Prefix: '&e&lA'
+    Cost: 0
+  '2':
+    Mine: b
+    Name: B
+    Prefix: '&e&lB'
+    Cost: 2500
+    CMD: [ ]
+  '3':
+    Mine: c
+    Name: C
+    Prefix: '&e&lC'
+    Cost: 12500
+    CMD: [ ]
+  '4':
+    Mine: d
+    Name: D
+    Prefix: '&e&lD'
+    Cost: 35000
+    CMD: [ ]
+  '5':
+    Mine: e
+    Name: E
+    Prefix: '&e&lE'
+    Cost: 75000
+    CMD: [ ]
+  '6':
+    Mine: f
+    Name: F
+    Prefix: '&e&lF'
+    Cost: 135000
+    CMD: [ ]
+  '7':
+    Mine: g
+    Name: G
+    Prefix: '&e&lG'
+    Cost: 175000
+    CMD: [ ]
+  '8':
+    Mine: h
+    Name: H
+    Prefix: '&e&lH'
+    Cost: 350000
+    CMD: [ ]
+  '9':
+    Mine: i
+    Name: I
+    Prefix: '&e&lI'
+    Cost: 625000
+    CMD: [ ]
+  '10':
+    Mine: j
+    Name: J
+    Prefix: '&e&lJ'
+    Cost: 1000000
+    CMD: [ ]
+  '11':
+    Mine: k
+    Name: K
+    Prefix: '&e&lK'
+    Cost: 2500000
+    CMD: [ ]
+  '12':
+    Mine: l
+    Name: L
+    Prefix: '&e&lL'
+    Cost: 6000000
+    CMD: [ ]
+  '13':
+    Mine: m
+    Name: M
+    Prefix: '&e&lM'
+    Cost: 15000000
+    CMD: [ ]
+  '14':
+    Mine: n
+    Name: N
+    Prefix: '&e&lN'
+    Cost: 35000000
+    CMD: [ ]
+  '15':
+    Mine: o
+    Name: O
+    Prefix: '&e&lO'
+    Cost: 75000000
+    CMD: [ ]
+  '16':
+    Mine: p
+    Name: P
+    Prefix: '&e&lP'
+    Cost: 150000000
+    CMD: [ ]
+  '17':
+    Mine: q
+    Name: Q
+    Prefix: '&e&lQ'
+    Cost: 300000000
+    CMD: [ ]
+  '18':
+    Mine: r
+    Name: R
+    Prefix: '&e&lR'
+    Cost: 500000000
+    CMD: [ ]
+  '19':
+    Mine: s
+    Name: S
+    Prefix: '&e&lS'
+    Cost: 750000000
+    CMD: [ ]
+  '20':
+    Mine: t
+    Name: T
+    Prefix: '&e&lT'
+    Cost: 1000000000
+    CMD: [ ]
+  '21':
+    Mine: u
+    Name: U
+    Prefix: '&e&lU'
+    Cost: 1500000000
+    CMD: [ ]
+  '22':
+    Mine: v
+    Name: V
+    Prefix: '&e&lV'
+    Cost: 2000000000
+    CMD: [ ]
+  '23':
+    Mine: w
+    Name: W
+    Prefix: '&e&lW'
+    Cost: 2500000000
+    CMD: [ ]
+  '24':
+    Mine: x
+    Name: X
+    Prefix: '&e&lX'
+    Cost: 5000000000
+    CMD: [ ]
+  '25':
+    Mine: y
+    Name: Y
+    Prefix: '&e&lY'
+    Cost: 7500000000
+    CMD: [ ]
+  '26':
+    Mine: z
+    Name: Z
+    Prefix: '&e&lZ'
+    Cost: 10000000000
+    CMD: [ ]
